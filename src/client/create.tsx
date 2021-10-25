@@ -29,9 +29,6 @@ export const PetCreate = () => {
               <Form.Item label="Url Image" name="url_image">
                   <Input />
               </Form.Item>
-              <Form.Item label="Condition" name="condition">
-                  <Input />
-              </Form.Item>
               <Form.Item
                 label="Donor"
                 name="donor"
