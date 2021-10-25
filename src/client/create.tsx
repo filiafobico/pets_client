@@ -32,10 +32,12 @@ export const PetCreate = () => {
               <Form.Item label="Condition" name="condition">
                   <Input />
               </Form.Item>
-              <Form.Item label="Donor" name="donor">
-                  <Input
-                    defaultValue={JSON.parse(localStorage.getItem('user') || '')?.id}
-                  />
+              <Form.Item
+                label="Donor"
+                name="donor"
+                initialValue={JSON.parse(localStorage.getItem('user') || '')?.id}
+                hidden={true}
+                >
               </Form.Item>
           </Form>
       </Create>
