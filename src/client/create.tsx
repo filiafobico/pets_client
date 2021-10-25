@@ -2,6 +2,7 @@ import {
   Create,
   Form,
   Input,
+  Radio,
   useForm} from "@pankod/refine";
 import { IPet } from 'interfaces/pet';
 
@@ -15,7 +16,11 @@ export const PetCreate = () => {
                   <Input />
               </Form.Item>
               <Form.Item label="Size" name="size">
-                  <Input />
+                <Radio.Group>
+                    <Radio value="small">Small</Radio>
+                    <Radio value="medium">Medium</Radio>
+                    <Radio value="big">Big</Radio>
+                </Radio.Group>
               </Form.Item>
               <Form.Item label="Weight" name="weight">
                   <Input />

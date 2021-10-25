@@ -11,7 +11,11 @@ export const PetEdit: React.FC = () => {
                   <Input />
               </Form.Item>
               <Form.Item label="Size" name="size">
-                  <Input />
+                <Radio.Group>
+                    <Radio value="small">Small</Radio>
+                    <Radio value="medium">Medium</Radio>
+                    <Radio value="big">Big</Radio>
+                </Radio.Group>
               </Form.Item>
               <Form.Item label="Weight" name="weight">
                   <Input />
@@ -26,11 +30,11 @@ export const PetEdit: React.FC = () => {
                   <Input />
               </Form.Item>
               <Form.Item label="Condition" name="condition">
-                    <Radio.Group>
-                        <Radio value="adopted">Adopted</Radio>
-                        <Radio value="adoption">Adoption</Radio>
-                        <Radio value="validation">Validation</Radio>
-                    </Radio.Group>
+                <Radio.Group>
+                    <Radio value="adopted">Adopted</Radio>
+                    <Radio value="adoption">Adoption</Radio>
+                    <Radio value="validation">Validation</Radio>
+                </Radio.Group>
               </Form.Item>
             </Form>
         </Edit>
