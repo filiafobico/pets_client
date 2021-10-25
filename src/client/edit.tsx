@@ -1,4 +1,4 @@
-import { useForm, Form, Input, Edit } from "@pankod/refine";
+import { useForm, Form, Input, Edit, Radio } from "@pankod/refine";
 import { IPet } from 'interfaces/pet';
 
 export const PetEdit: React.FC = () => {
@@ -26,7 +26,11 @@ export const PetEdit: React.FC = () => {
                   <Input />
               </Form.Item>
               <Form.Item label="Condition" name="condition">
-                  <Input />
+                    <Radio.Group>
+                        <Radio value="adopted">Adopted</Radio>
+                        <Radio value="adoption">Adoption</Radio>
+                        <Radio value="validation">Validation</Radio>
+                    </Radio.Group>
               </Form.Item>
             </Form>
         </Edit>
