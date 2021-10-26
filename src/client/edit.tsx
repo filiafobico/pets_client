@@ -18,10 +18,10 @@ export const PetEdit: React.FC = () => {
                 </Radio.Group>
               </Form.Item>
               <Form.Item label="Weight" name="weight">
-                  <Input />
+                  <Input type="number" />
               </Form.Item>
               <Form.Item label="Age" name="age">
-                  <Input />
+                  <Input type="number" />
               </Form.Item>
               <Form.Item label="Color" name="color">
                   <Input />

@@ -22,11 +22,11 @@ export const PetCreate = () => {
                     <Radio value="big">Big</Radio>
                 </Radio.Group>
               </Form.Item>
-              <Form.Item label="Weight" name="weight">
-                  <Input />
+              <Form.Item label="Weight" name="weight" initialValue="0">
+                  <Input type="number" />
               </Form.Item>
-              <Form.Item label="Age" name="age">
-                  <Input />
+              <Form.Item label="Age" name="age" initialValue="0">
+                  <Input type="number" />
               </Form.Item>
               <Form.Item label="Color" name="color">
                   <Input />
