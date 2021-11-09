@@ -32,10 +32,10 @@ import {
             <Text>{record?.address_number}</Text>
 
             <Title level={5}>city</Title>
-            <Text>{record?.city}</Text>
+            <Text>{record?.address_city}</Text>
   
             <Title level={5}>state</Title>
-            <Text>{record?.state}</Text>
+            <Text>{record?.address_state}</Text>
         </Show>
     );
   };
