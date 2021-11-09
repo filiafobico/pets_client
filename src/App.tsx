@@ -13,7 +13,7 @@ import { PeopleList } from 'client/people/list';
 import { PeopleShow } from 'client/people/show';
 
 function App() {
-  const API_URL = "http://localhost:1337";
+  const API_URL = "https://serverpets.herokuapp.com";
 
   const { authProvider, axiosInstance } = strapiAuthProvider(API_URL);
   const dataProvider = DataProvider(API_URL, axiosInstance);
