@@ -20,19 +20,19 @@ import {
                 <Form.Item label="Password" name="weight" initialValue="0">
                     <Input />
                 </Form.Item>
-                <Form.Item label="CPF" name="age" initialValue="0">
+                <Form.Item label="CPF" name="cpf">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Rua" name="color">
+                <Form.Item label="Street" name="address_street">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Numero" name="url_image">
+                <Form.Item label="Number" name="address_number">
                     <Input />
                 </Form.Item>
-                <Form.Item label="City" name="url_image">
+                <Form.Item label="City" name="city">
                     <Input />
                 </Form.Item>
-                <Form.Item label="State" name="url_image">
+                <Form.Item label="State" name="state">
                     <Input />
                 </Form.Item>
             </Form>
