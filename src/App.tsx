@@ -3,10 +3,14 @@ import { Refine, Resource } from "@pankod/refine";
 import "@pankod/refine/dist/styles.min.css";
 import { DataProvider } from "@pankod/refine-strapi";
 import strapiAuthProvider from "authProvider";
-import { PetCreate } from 'client/create';
-import { PetEdit } from 'client/edit';
-import { PetList } from 'client/list';
-import { PetShow } from 'client/show';
+import { PetCreate } from 'client/pet/create';
+import { PetEdit } from 'client//pet/edit';
+import { PetList } from 'client/pet/list';
+import { PetShow } from 'client/pet/show';
+import { PeopleCreate } from 'client/people/create';
+import { PeopleEdit } from 'client//people/edit';
+import { PeopleList } from 'client/people/list';
+import { PeopleShow } from 'client/people/show';
 
 function App() {
   const API_URL = "https://serverpets.herokuapp.com";
@@ -22,6 +26,14 @@ function App() {
         list={PetList}
         show={PetShow}
         create={PetCreate}
+        canDelete
+      />
+      <Resource
+        name="people"
+        edit={PeopleEdit}
+        list={PeopleList}
+        show={PeopleShow}
+        create={PeopleCreate}
         canDelete
       />
     </Refine>
