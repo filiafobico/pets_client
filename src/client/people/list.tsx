@@ -9,10 +9,10 @@ export const PeopleList: React.FC = () => {
           <Table<IPeople> {...tableProps} rowKey="id">
               <Table.Column dataIndex="name" title="name" />
               <Table.Column dataIndex="email" title="email" />
-              <Table.Column dataIndex="address_street" title="address_street" />
-              <Table.Column dataIndex="address_number" title="address_number" />
-              <Table.Column dataIndex="address_city" title="address_city" />
-              <Table.Column dataIndex="address_state" title="address_state" />
+              <Table.Column dataIndex="Street" title="address_street" />
+              <Table.Column dataIndex="Number" title="address_number" />
+              <Table.Column dataIndex="City" title="address_city" />
+              <Table.Column dataIndex="State" title="address_state" />
               <Table.Column<IPeople>
                     title="Actions"
                     dataIndex="actions"
