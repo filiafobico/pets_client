@@ -20,7 +20,7 @@ import {
                 <Form.Item label="Password" name="password" initialValue="0">
                     <Input />
                 </Form.Item>
-                <Form.Item label="CPF" name="cpf" initialValue="0">
+                <Form.Item label="CPF" name="cpf">
                     <Input />
                 </Form.Item>
                 <Form.Item label="Rua" name="address_street">
