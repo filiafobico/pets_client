@@ -23,16 +23,16 @@ import {
                 <Form.Item label="CPF" name="cpf" initialValue="0">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Rua" name="rua">
+                <Form.Item label="Rua" name="address_street">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Numero" name="numero">
+                <Form.Item label="Numero" name="address_number">
                     <Input />
                 </Form.Item>
-                <Form.Item label="City" name="city">
+                <Form.Item label="City" name="address_city">
                     <Input />
                 </Form.Item>
-                <Form.Item label="State" name="state">
+                <Form.Item label="State" name="address_state">
                     <Input />
                 </Form.Item>
             </Form>

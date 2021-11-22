@@ -14,10 +14,10 @@ import {
                 <Form.Item label="Name" name="name">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Email" name="name">
+                <Form.Item label="Email" name="email">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Password" name="weight" initialValue="0">
+                <Form.Item label="Password" name="password">
                     <Input />
                 </Form.Item>
                 <Form.Item label="CPF" name="cpf">
@@ -29,10 +29,10 @@ import {
                 <Form.Item label="Number" name="address_number">
                     <Input />
                 </Form.Item>
-                <Form.Item label="City" name="city">
+                <Form.Item label="City" name="address_city">
                     <Input />
                 </Form.Item>
-                <Form.Item label="State" name="state">
+                <Form.Item label="State" name="address_state">
                     <Input />
                 </Form.Item>
             </Form>
