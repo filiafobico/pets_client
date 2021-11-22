@@ -7,13 +7,12 @@ export const PeopleList: React.FC = () => {
   return (
       <List>
           <Table<IPeople> {...tableProps} rowKey="id">
-            <Table.Column dataIndex="_id" title="_id" />
-              <Table.Column dataIndex="name" title="name" />
-              <Table.Column dataIndex="email" title="email" />
-              <Table.Column dataIndex="address_street" title="street" />
-              <Table.Column dataIndex="address_number" title="number" />
-              <Table.Column dataIndex="city" title="city" />
-              <Table.Column dataIndex="state" title="state" />
+              <Table.Column dataIndex="name" title="Name" />
+              <Table.Column dataIndex="email" title="Email" />
+              <Table.Column dataIndex="address_street" title="Street" />
+              <Table.Column dataIndex="address_number" title="Number" />
+              <Table.Column dataIndex="address_city" title="City" />
+              <Table.Column dataIndex="address_state" title="State" />
               <Table.Column<IPeople>
                     title="Actions"
                     dataIndex="actions"
