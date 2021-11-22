@@ -17,7 +17,7 @@ import {
                 <Form.Item label="Email" name="email">
                     <Input />
                 </Form.Item>
-                <Form.Item label="Password" name="password" initialValue="0">
+                <Form.Item label="Password" name="password" type="password">
                     <Input />
                 </Form.Item>
                 <Form.Item label="CPF" name="cpf">
